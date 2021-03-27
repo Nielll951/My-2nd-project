@@ -1,3 +1,5 @@
+// mobile menu
+
 let mobileMenu = document.querySelector(".nav-mobile-menu");
 let mainMenu = document.querySelector(".navigation");
 let menuLinks = document.querySelectorAll(".menu-link");
@@ -21,3 +23,6 @@ menuLinks.forEach(link => {
 
     })
 })
+
+
+    

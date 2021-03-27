@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header header-scroll">
+    <header class="header">
         <div class="container">
             <div class="row header-row">
                 <div class="logo col-xs-6 col-md-2">
@@ -58,19 +58,24 @@
         </div>
     </header>
     <main class="main">
-        <section class="slider">
+        <section class="slider pos-rel">
             <div class="container">
                 <div class="row slider-row">
                     <div class="slider-content">
-                        <div class="col-xs-12 col-sm-10 col-lg-8">
+                        <div class="col-xs-12 col-sm-10 col-lg-8" data-scroll-discover="true">
                             <p class="name">Agro</p>
                             <h2 class="title text-white">Farming company</h2>
                             <p class="text-center">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English
                             </p>
+                            <div class="slider__btn">
+                                <a href="#" class=" btn btn-discover">discover</a>
+                            </div>
+                            <div class="slider__btn_space-below"></div>
                         </div>
                     </div>
                 </div>
             </div>
+            <span class="scroll-discover"></span>
         </section>               
     </main>
     <footer class="footer"></footer>
