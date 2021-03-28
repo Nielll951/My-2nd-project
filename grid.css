@@ -7,6 +7,10 @@
     margin-right: auto;
 }
 
+[class*=col-] {
+    padding: 0 15px;
+}
+
 .row {
     display: flex;
     flex-direction: column;
