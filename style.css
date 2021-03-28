@@ -303,6 +303,25 @@ h2 span {
     font-family: Raleway, sans-serif;
 }
 
+.special-products {
+    background-image: url(images/special_offer_text_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.special-offer__h2 {
+    color: #4d4d33;
+    font-weight: 100;
+}
+
+.special-offer {
+    text-align: center;
+}
+
+.special-products-row {
+    margin: 100px 0;
+}
+
 @media (min-width: 576px) {
     .name {
         display: block;
