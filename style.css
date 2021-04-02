@@ -48,10 +48,10 @@ body {
 }
 
 .logo-link {
-    display: block;
-    margin-bottom: -35px;
     position: relative;
-    z-index: 21;
+    margin-left: -30px;
+    z-index: 6;
+    margin-bottom: -25px;
 }
 
 .logo-img {
@@ -120,7 +120,7 @@ a {
 
 .get-in-touch-btn:hover {
     background-color: transparent;
-    color: white;
+    color: #e50a0a;
 }
 
 .slider__btn {
@@ -566,7 +566,7 @@ main p:first-child {
 }
 
 .section--no-pb {
-    padding-bottom: 0.5px;
+    padding-bottom: 0.5px !important;
 }
 
 .simple-banner {
@@ -642,6 +642,73 @@ main p:first-child {
     position: relative;
 }
 
+.posts .__item {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.post-item {
+    margin-bottom: 20px;
+}
+
+.post-item-img {
+    display: block;
+    width: 100%;
+}
+
+.post-item-content {
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.logo-link img {
+    height: 90px;
+}
+
+.category {
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-size: 0.8rem;
+    margin-top: 25px;
+}
+
+.category a {
+    color: #ddc051;
+}
+
+.post-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.post-title a {
+    color: #333;
+    font-size: 1.1rem;
+    font-family: Raleway, sans-serif;
+}
+
+.post-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-btn {
+    margin-top: 10px;
+}
+
+.post-row {
+    flex-direction: row;
+}
+
+.post-row [class*=col-] {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
 @media (min-width: 576px) {
     .name {
         display: block;
@@ -698,6 +765,11 @@ main p:first-child {
         margin-bottom: 50px;
         margin-top: 50px;
     }
+
+    .post__content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -737,6 +809,12 @@ main p:first-child {
     .mb-100 {
         margin-bottom: 50px;
         margin-top: 0;
+    }
+
+    .post__content {
+        margin: -40px 20px 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -889,6 +967,18 @@ main p:first-child {
     .text-white {
         font-size: 4.5rem;
     }
+
+    .logo-link img {
+        height: auto;
+    }
+
+    .logo-link {
+        margin-left: 0;
+    }
+
+    .add-height {
+        height: 195px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -911,5 +1001,9 @@ main p:first-child {
 
     .mb-100 {
         margin-bottom: 100px;
+    }
+
+    .add-height {
+        height: 244px;
     }
 }

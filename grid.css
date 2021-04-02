@@ -82,6 +82,11 @@
     .container {
         max-width: 540px;
     }
+
+    .col-s-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 }
 
 /* tablet sm*/
@@ -139,8 +144,6 @@
         flex: 0 0 91.66667%;
         max-width: 91.66667%;
     }
-
-
 }
 
 /* laptop md*/
@@ -209,7 +212,7 @@
 /* desctop lg*/
 @media(min-width:1200px) {
     .container {
-        max-width: 1140px;
+        max-width: 1170px;
         margin: 0 auto;
     }
 
