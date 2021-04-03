@@ -754,6 +754,14 @@ main p:first-child {
     margin-right: -15px;
 }
 
+.section--dark-bg {
+    background-color: #333;
+}
+
+.title-white {
+    color: white;
+}
+
 @media (min-width: 576px) {
     .name {
         display: block;
