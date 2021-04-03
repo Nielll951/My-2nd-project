@@ -739,6 +739,21 @@ main p:first-child {
     color: #333;
 }
 
+.label-item {
+    width: 100%;
+    display: inline-block;
+}
+
+.label-item {
+    display: flex;
+    justify-content: center;
+}
+
+.post-row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
 @media (min-width: 576px) {
     .name {
         display: block;
@@ -799,6 +814,12 @@ main p:first-child {
     .post__content {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .row-labels {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
@@ -946,6 +967,11 @@ main p:first-child {
 
     .about__text {
         margin-top: 60px;
+    }
+
+    .label-item {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
