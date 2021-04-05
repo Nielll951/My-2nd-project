@@ -7,10 +7,6 @@
     margin-right: auto;
 }
 
-[class*=col-] {
-    padding: 0 15px;
-}
-
 .row {
     display: flex;
     flex-direction: column;
@@ -19,10 +15,11 @@
     margin-right: -15px; */
 }
 
-/* [class*="col-"] {
+[class*="col-"] {
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
+
 .col-xs-2 {
     flex: 0 0 16.66667%;
     max-width: 16.66667%;
