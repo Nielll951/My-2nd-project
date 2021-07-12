@@ -41,6 +41,7 @@ body {
 .header-row {
     flex-direction: row;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .img {
@@ -83,7 +84,34 @@ nav {
     outline: none;
     border-bottom: 2px solid transparent;
     display: block;
+    /* position: relative; */
+    transition: all 0.3s ease 0s;
 }
+
+/* .menu-link:before,
+.menu-link:after {
+    content: "";
+    position: absolute;
+    transition: transform 0.5s ease;
+}
+
+.menu-link:before {
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transform: scaleX(0);
+}
+
+.menu-link:hover:before {
+    transform: scaleX(1);
+} */
+
+.menu-link:hover {
+    color: #ffff66;
+}
+
 
 .header__btn {
     display: flex;
@@ -120,7 +148,7 @@ a {
 
 .get-in-touch-btn:hover {
     background-color: transparent;
-    color: #e50a0a;
+    color: white;
 }
 
 .slider__btn {
@@ -1249,6 +1277,7 @@ address a {
         visibility: visible;
         transform: translateX(0);
         z-index: 20;
+        overflow: auto
     }
 
     .about__text {
